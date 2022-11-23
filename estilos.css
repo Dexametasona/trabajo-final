@@ -1,0 +1,38 @@
+/*---------------------------------BARRA DE NAVEGACION----------------------------------- */
+#menu a {
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* ----------------------------------CARRUSEL----------- */
+div>img{
+    max-height: 700px;
+} 
+.amigo{
+    display: flex;
+    align-items: center;
+}
+.yo{
+    display: flex;
+}
+
+/* ----------------------------------MEDIA QUERY PARA SM---------------------------------- */
+@media (max-width:768px) {
+    #intro {
+        width:90% !important;
+        margin:auto;
+    }
+}
+@media(max-width:992px){
+    .amigo{
+        display: block;
+    }
+    .amigo>div{
+        padding: 20px;
+    }
+    .yo{
+        display: block;
+    }
+}
+
+
+
